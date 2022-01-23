@@ -22,6 +22,9 @@ body {
         display: block;
         text-align: center;
         }
+    body {
+        font-size: 10px;
+    }
     
 }
 
