@@ -1,66 +1,121 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">  
+  <meta charset="UTF-8">
+  <link  href="styles.css" rel="stylesheet"/>    
   <title>Резюме Степаненко О.</title>
 </head>
 <body>
-  <table cellspacing="15">
-    <tr>
-      <td><img src="резюме.png" width="200" alt="Мое фото"/></td>
-      <td><h1>Ольга Степаненко</h1>
-        <p>Соискатель на позицию junior frontend разработчик</p> 
-      </td>
-    </tr>
-  </table> 
-  <hr>
-  <h2>Стек разработки</h2>
-  <ul>
-    <li>С++</li>
-    <li>Python</li>
-    <li>JavaScript</li>
-  </ul>
-  <hr>
-  <h2>Образование</h2>
-  <ul>
-    <li>Профильное:</li>
-    <ul type="square">
-      <li>Школа программистов <a href="shp.html" target="_blank">(посмотреть пройденные курсы и успеваемость)</a></li>
-      <li>Спецкурсы</li>
-    </ul>
-    <li>Не профильное:</li>
-    <ul type="square">
-      <li>Университет</li>
-      <li>Курсы английского языка</li>
-    </ul>
-  </ul> 
-  <hr> 
-  <h2>Опыт работы</h2>
-    <ul>
-      <li>Разработка и администрирование web-сайта <a href="https://авилена.рф" target="_blank">авилена.рф</a></li>
-    </ul>
-    <table>
-      <thead>
-        <tr>
-          <th>Должность</th>
-          <th>Компания</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Заместитель директора</td>
-          <td>УФПС Калужской области</td>
-          <td>февраль 2017 - н.в.</td>
-      </tr>
-      <tr>
-        <td>Коммерческий директор</td>
-        <td>Филиал ПАО "МТС" во Владимирской области</td>
-        <td>июнь 2013 - декабрь 2016</td>
-      </tr>
-      </tbody>  
-  </table>
-  <hr>
-  <h2>Soft skills</h2>
+  <div class="container">
+    <div class="main-info">
+      <img src="резюме.png"  alt="Мое фото" class="photo"/>
+      <div class="main-info-text">
+        <h1>Ольга Степаненко</h1>
+        <p>Соискатель на позицию junior frontend разработчик</p>
+        <p>+7 910 770 05 05</p>
+        <p>stepanenko_olga@mail.ru</p>
+      </div>      
+    </div>    
+    <div class="card bg-white">
+      <h2>Стек разработки</h2>
+      <ul class="list">
+        <div class="row">
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>C++</li>
+        </div>
+        <div class="row">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+        </div>
+        <div class="row">
+          <li>Vue JS</li>
+          <li>Django</li>          
+        </div>
+        <div class="row">
+          <li>MongoDB</li>
+          <li>SQL</li>
+          <li>SQLite</li>          
+        </div>
+        
+      </ul>
+    </div>
+    <div class="card bg-blue">
+      <h2>Образование</h2>
+      <ul class="edu">
+        <li>Профильное:</li>
+        <ul type="square">
+          <li>АНО ДО "Школа программистов" <a href="shp.html" target="_blank">(посмотреть пройденные курсы и успеваемость)</a></li>
+          <li>Udemy. Практический курс для новичков по SQL и PostgreSQL</li>
+          <li>Coursera. Machine Leaning (в процессе обучения)</li>
+        </ul>
+        <li>Не профильное:</li>
+        <ul type="square">
+          <li>Омский государственный университет им. Ф.М. Достоевского. Специальность: Маркетинг</li>
+          <li>Школа иностранных языков «Big Apple». Уровень владения английским языком - B2</li>
+        </ul>
+      </ul>
+    </div>
+    <div class="card bg-red">
+      <h2>Опыт работы</h2>
+      <ul>
+       <li style="text-align: center;">
+        Разработка и администрирование web-сайта 
+        <a href="https://авилена.рф" target="_blank">авилена.рф</a></li>
+      </ul>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Должность</th>
+            <th>Компания</th>
+            <th>Год</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Заместитель директора по почтовому бизнесу</td>
+            <td>УФПС Калужской области</td>
+            <td>2017 - н.в.</td>
+          </tr>
+          <tr>
+            <td>Коммерческий директор</td>
+            <td>Филиал ПАО "МТС" во Владимирской области</td>
+            <td>2013 - 2016</td>
+          </tr>
+          <tr>
+            <td>Руководитель группы маркетинга</td>
+            <td>Филиал ПАО "МТС" в Тюменской области</td>
+            <td>2011-2013</td>
+          </tr>
+          <tr>
+            <td>Руководитель группы привлечения корпоративных клиентов</td>
+            <td>Филиал ПАО "МТС" МР "Поволжье"</td>
+            <td>2010-2011</td>
+          </tr>
+          <tr>
+            <td>Коммерческий директор</td>
+            <td>Филиал ПАО "МТС" в Астраханской области</td>
+            <td>2008-2009</td>
+          </tr>
+          <tr>
+            <td>Директор по маркетингу</td>
+            <td>Филиал ПАО "МТС" в Удмуртской республике</td>
+            <td>2006-2008</td>
+          </tr>
+          <tr>
+            <td>Ведущий специалист - и.о. начальника отдела маркетинговых коммуникаций</td>
+            <td>Филиал ПАО "МТС" МР "Поволжье-СЗ"</td>
+            <td>2004-2006</td>
+          </tr>
+          <tr>
+            <td>Специалист - начальник отдела рекламы и PR</td>
+            <td>ОАО "Мобильные системы связи"</td>
+            <td>2001-2004</td>
+          </tr>
+        </tbody>  
+      </table>
+    </div>    
+  </div>
 </body>
 </html>

@@ -1,0 +1,119 @@
+
+body { 
+    background-color: #f1fbff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Helvetica, sans-serif;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.main-info {
+    display:flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .main-info {
+        display: block;
+        text-align: center;
+        }
+    
+}
+
+.main-info p {
+    color: #86898f;
+    margin-bottom: 20px;
+    font-style: italic;   
+}
+
+.main-info-text {
+    margin-left: 40px;
+
+}
+
+h1, h2 {
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.container,
+.shp-container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-white { 
+    background: white;
+}
+
+.bg-blue {
+    background: #d7e5f7;
+
+}
+
+.bg-red {
+    background: #baf3e9;
+}
+
+.list  {
+    padding: 0 20px;
+    display: flex;    
+}
+
+.list > .row
+ {
+    width: 50%; 
+    margin-right: 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 5px; 
+}
+
+.table,
+.shp-table {
+    width: 100%;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3),
+.shp-table td:nth-child(2), 
+.shp-table td:nth-child(3)
+ {
+    padding-bottom: 10px;
+    color: #86898f;
+    text-align: center;
+}
+
+.table td,
+.shp-table td {
+    padding-top: 30px;
+    border-bottom: 1px solid #ccc;    
+}
+
+.shp-table tr:nth-child(even){
+    background:rgba(150, 215, 219, 0.116)
+}
+
+.edu li{
+    color: #86898f;
+    margin-bottom: 10px; 
+}
+
+
+ 
+
+
