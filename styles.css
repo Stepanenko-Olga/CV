@@ -3,7 +3,7 @@ body {
     background-color: #f1fbff;    
     font-weight: 600;
     font-family: Helvetica, sans-serif;
-    font-size: min(14px, max(10vw, 40px)); 
+    font-size: min(16px, max(10vw, 40px)); 
 }
 
 h1, h2 {
@@ -109,7 +109,7 @@ h1, h2 {
     color: #86898f;
     margin-bottom: 10px;
     margin-top: 10px;
-    list-style: circle;
+    list-style: none;
 }
 
 .edu ul {
