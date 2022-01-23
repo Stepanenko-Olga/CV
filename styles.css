@@ -3,7 +3,7 @@ body {
     background-color: #f1fbff;    
     font-weight: 600;
     font-family: Helvetica, sans-serif;
-    font-size: min(12px, max(10vw, 40px)); 
+    font-size: min(14px, max(10vw, 40px)); 
 }
 
 .photo {
@@ -74,8 +74,7 @@ h1, h2 {
 .list > .col,
 .edu > .col
  {
-    width: 100%; 
-    margin-right: 10px;
+    width: 50%;     
 }
 
 .list li {
@@ -110,8 +109,20 @@ h1, h2 {
 
 .edu li{
     color: #86898f;
-    margin-bottom: 10px; 
-   
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style: none;
+    list-style-position: outside;    
+}
+
+.edu {
+    display: flex;
+}
+
+.edu ul {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 0; 
 }
 
 
