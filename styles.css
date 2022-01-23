@@ -6,6 +6,18 @@ body {
     font-size: min(14px, max(10vw, 40px)); 
 }
 
+h1, h2 {
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.container,
+.shp-container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 30px;
+}
+
 .photo {
     width: 200px;
     border-radius: 50%;
@@ -35,18 +47,6 @@ body {
 
 }
 
-h1, h2 {
-    letter-spacing: 1.5px;
-    text-align: center;
-}
-
-.container,
-.shp-container {
-    max-width: 900px;
-    margin: auto;
-    padding-top: 30px;
-}
-
 .card {
     padding: 15px 20px;
     margin-bottom: 20px;
@@ -71,8 +71,7 @@ h1, h2 {
     display: flex;    
 }
 
-.list > .col,
-.edu > .col
+.list > .col
  {
     width: 50%;     
 }
@@ -90,8 +89,7 @@ h1, h2 {
 .table td:nth-child(2), 
 .table td:nth-child(3),
 .shp-table td:nth-child(2), 
-.shp-table td:nth-child(3)
- {
+.shp-table td:nth-child(3) {
     padding-bottom: 10px;
     color: #86898f;
     text-align: center;
@@ -111,12 +109,7 @@ h1, h2 {
     color: #86898f;
     margin-bottom: 10px;
     margin-top: 10px;
-    list-style: none;
-    list-style-position: outside;    
-}
-
-.edu {
-    display: flex;
+    list-style: circle;
 }
 
 .edu ul {
