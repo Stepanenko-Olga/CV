@@ -1,7 +1,6 @@
 
 body { 
-    background-color: #f1fbff;
-    font-size: 15px;
+    background-color: #f1fbff;    
     font-weight: 600;
     font-family: Helvetica, sans-serif;
 }
@@ -21,11 +20,7 @@ body {
     .main-info {
         display: block;
         text-align: center;
-        }
-    body {
-        font-size: 8px;
-    }
-    
+        }      
 }
 
 .main-info p {
