@@ -3,6 +3,7 @@ body {
     background-color: #f1fbff;    
     font-weight: 600;
     font-family: Helvetica, sans-serif;
+    font-size: 1rem; 
 }
 
 .photo {
@@ -20,7 +21,10 @@ body {
     .main-info {
         display: block;
         text-align: center;
-        }      
+        }
+    .list {
+        display: block;
+    }     
 }
 
 .main-info p {
