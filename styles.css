@@ -21,10 +21,7 @@ body {
     .main-info {
         display: block;
         text-align: center;
-        }
-    .list {
-        display: block;
-    }     
+        }           
 }
 
 .main-info p {
@@ -74,10 +71,11 @@ h1, h2 {
     display: flex;    
 }
 
-.list > .col
+.list > .col,
+.edu > .col
  {
-    width: 50%; 
-    margin-right: 20px;
+    width: 100%; 
+    margin-right: 10px;
 }
 
 .list li {
@@ -113,6 +111,7 @@ h1, h2 {
 .edu li{
     color: #86898f;
     margin-bottom: 10px; 
+   
 }
 
 
